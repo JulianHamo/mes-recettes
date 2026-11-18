@@ -27,10 +27,10 @@ jobs:
     permissions:
       pages: write
       id-token: write
-      environment:
+    environment:
       name: github-pages
       url: ${{ steps.pages.outputs.page_url }}
-      steps:
+    steps:
       - name: Deploy to GitHub Pages
         id: pages
         uses: actions/deploy-pages@v5
