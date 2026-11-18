@@ -18,8 +18,8 @@ ingredients:
   - "1 concombre"
   - "200 g de feta"
   - "1 pincée de sel"
-  - "une gousse d'ail"
-  - "une cuillère à soupe d'huile"
+  - "1 gousse d'ail"
+  - "1 cuillère à soupe d'huile"
 conseils:
   - "Laissez égouter le concombre !"
 favori: false
