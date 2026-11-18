@@ -1,7 +1,7 @@
 ---
 titre: "Crêpes classiques"
 description: "Une recette simple et rapide pour des crêpes moelleuses."
-auteur: "<votre-identifiant>"
+auteur: "Julian Hamo"
 date: 2025-10-06
 temps_de_préparation: "10 min"
 temps_de_cuisson: "15 min"
@@ -13,7 +13,7 @@ coût: "€"
 tags:
   - rapide
   - végétarien
-image: crepes.jpg
+image: crepes-classiques.jpeg
 ingredients:
   - "250 g de farine"
   - "3 œufs"
