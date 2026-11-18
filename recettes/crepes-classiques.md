@@ -1,7 +1,7 @@
 ---
 titre: "Crêpes classiques"
 description: "Une recette simple et rapide pour des crêpes moelleuses."
-auteur: "<votre-identifiant>"
+auteur: "Julian Hamo"
 date: 2025-10-06
 temps_de_préparation: "10 min"
 temps_de_cuisson: "15 min"
