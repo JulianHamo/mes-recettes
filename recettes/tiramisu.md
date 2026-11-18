@@ -30,7 +30,7 @@ source: null
 
 # Préparation
 
-1. Séparer les blancs des jaunes d’oeufs.
+1. Séparer les blancs des jaunes d’œufs.
 2. Mélanger les jaunes avec le sucre roux et le sucre vanillé.
 3. Ajouter le mascarpone au fouet.
 4. Monter les blancs en neige et les incorporer délicatement à la spatule au mélange précédent. Réserver.
