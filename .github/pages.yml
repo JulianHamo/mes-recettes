@@ -1,0 +1,36 @@
+name: "Déploiement continu"
+
+on: [push, pull_request]
+
+jobs:
+  build_pages:
+    runs-on: ubuntu-latest
+    container: docker://gitlab-registry.in2p3.fr/sonny.lion/astro-chef:1.1.3
+    env:
+      BASE_URL: "/nos-recettes"
+    steps:
+      - name: Check out git repository
+        uses: actions/checkout@v7
+      - name: Build the static website
+        run: |
+          cp -r ./recettes $APP_DIR/recettes
+          (cd $APP_DIR && pnpm build)
+          mv $APP_DIR/dist .
+      - name: Generate and upload the artifact
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist/
+  deploy_pages:
+    runs-on: ubuntu-latest
+    if: ${{ github.ref == 'refs/heads/main' }}
+    needs: build_pages
+    permissions:
+      pages: write
+      id-token: write
+      environment:
+      name: github-pages
+      url: ${{ steps.pages.outputs.page_url }}
+      steps:
+      - name: Deploy to GitHub Pages
+        id: pages
+        uses: actions/deploy-pages@v5
