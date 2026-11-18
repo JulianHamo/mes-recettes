@@ -11,4 +11,11 @@ jobs:
       - name: Extraction des fichiers
         uses: actions/checkout@v7
       - name: Exécution de grammalint
-        run: python -m grammalint -i recettes/**/*.md --skip-frontmatter-keys auteur image favori
+        run: python -m grammalint -i recettes/**/*.md --skip-frontmatter-keys auteur image favori -o report.json
+      - name: Mise en ligne du rapport JSON
+        uses: actions/upload-artifact@v7
+        with:
+          name: grammalint-report
+          path: report.json
+          retention-days: 7
+        if: failure()
