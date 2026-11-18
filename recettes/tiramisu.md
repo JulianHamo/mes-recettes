@@ -13,7 +13,7 @@ coût: "€"
 tags:
   - rapide
   - végétarien
-image: crepes.jpg
+image: tiramisu.webp
 ingredients:
   - "24 biscuits à la cuillere"
   - "3 œufs"
