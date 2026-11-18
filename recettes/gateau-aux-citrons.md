@@ -26,7 +26,7 @@ ingredients:
 conseils:
   - "Se congele bien si jamais il vous arrive d'en avoir marre."
 favori: non
-source: mamie
+source:
 ---
 
 # Préparation
