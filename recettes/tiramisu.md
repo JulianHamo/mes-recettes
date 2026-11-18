@@ -1,6 +1,6 @@
 ---
 titre: "Tiramisu"
-description: "La recette italiene du tiramisu"
+description: "La recette italienne du tiramisu"
 auteur: "Julian Hamo"
 date: 2025-10-06
 temps_de_préparation: "15 min"
@@ -30,12 +30,12 @@ source: null
 
 # Préparation
 
-1. Séparer les blancs des jaunes d'oeufs.
+1. Séparer les blancs des jaunes d’oeufs.
 2. Mélanger les jaunes avec le sucre roux et le sucre vanillé.
 3. Ajouter le mascarpone au fouet.
 4. Monter les blancs en neige et les incorporer délicatement à la spatule au mélange précédent. Réserver.
-5. Mouiller les biscuits dans le café rapidement avant d'en tapisser le fond du plat.
-6. Recouvrir d'une couche de crème au mascarpone puis répéter l'opération en alternant couche de biscuits et couche de crème en terminant par cette dernière.
+5. Mouiller les biscuits dans le café rapidement avant d’en tapisser le fond du plat.
+6. Recouvrir d’une couche de crème au mascarpone puis répéter l’opération en alternant couche de biscuits et couche de crème en terminant par cette dernière.
 7. Saupoudrer de cacao.
-8. Mettre au réfrigérateur 4 heures minimum puis déguster fraics.
+8. Mettre au réfrigérateur 4 heures minimum puis déguster frais.
 
