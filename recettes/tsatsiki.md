@@ -1,6 +1,6 @@
 ---
-titre: "Tsatsiki"
-description: "Une recette simple et rapide parfaite pour l'aperitif"
+titre: "Tzatziki"
+description: "Une recette simple et rapide parfaite pour apéritif"
 auteur: "Cynthia Hadjidakis"
 date: 2026-11-18
 temps_de_préparation: "20 min"
@@ -8,7 +8,7 @@ temps_de_cuisson: "0 min"
 temps_de_repos: ""
 difficulté: "Facile"
 portions: 4 personnes
-catégorie: "Entree"
+catégorie: "Entrée"
 coût: "€"
 tags:
   - rapide
@@ -28,9 +28,9 @@ source: null
 
 # Préparation
 
-1. Epluchez le concombre et coupez le en fine tranche.
+1. Coupez le concombre en fines tranches.
 2. Ajoutez tous les ingrédients.
 3. Mélangez au mixeur.
-4. Laissez reposer au frigo 1h et dégustez !
+4. Laissez reposer au frigo et dégustez.
 
 
